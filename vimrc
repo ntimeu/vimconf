@@ -21,6 +21,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set ttimeout
 set ttimeoutlen=0
+set colorcolumn=80
 
 syntax enable
 set background=dark
