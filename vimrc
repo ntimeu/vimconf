@@ -1,5 +1,6 @@
 execute pathogen#infect()
 
+syn on se title
 set number 
 set linebreak 
 set showbreak=+++   
@@ -11,10 +12,20 @@ set smartcase
 set ignorecase
 set incsearch
 set autoindent
+
+" 'Normal' coding style
 set smartindent
 set expandtab
 set shiftwidth=4
 set softtabstop=4
+
+" Kernel coding style
+" filetype plugin indent on
+" set tabstop=8
+" set softtabstop=8
+" set shiftwidth=8
+" set noexpandtab
+
 set ruler
 set undolevels=1000
 set backspace=indent,eol,start
