@@ -4,6 +4,8 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'VundleVim/Vundle.vim'
+
 Plugin 'vim-scripts/wombat256.vim'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
@@ -16,6 +18,7 @@ syntax on
 set smartindent
 set fileencoding=utf-8
 set encoding=utf-8
+set ff=unix
 set noerrorbells
 set t_vb=
 set t_ut=
@@ -30,6 +33,7 @@ set showmatch
 set smartcase
 set formatoptions+=t
 
+set linebreak
 set textwidth=80
 set tabstop=4
 set expandtab
