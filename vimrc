@@ -1,43 +1,43 @@
-execute pathogen#infect()
+set nocompatible
+filetype off
 
-syn on se title
-set number 
-set linebreak 
-set showbreak=+++   
-set textwidth=80
-set showmatch 
-set visualbell 
-set hlsearch
-set smartcase
-set ignorecase
-set incsearch
-set autoindent
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-" 'Normal' coding style
+Plugin 'vim-scripts/wombat256.vim'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+
+call vundle#end()
+
+filetype plugin indent on
+set ttyfast
+syntax on
 set smartindent
+set fileencoding=utf-8
+set encoding=utf-8
+set noerrorbells
+set t_vb=
+set t_ut=
+set cursorline
+set number
+set colorcolumn=+1
+set clipboard=unnamed
+
+set history=10000
+set incsearch
+set showmatch
+set smartcase
+set formatoptions+=t
+
+set textwidth=80
+set tabstop=4
 set expandtab
-set shiftwidth=4
 set softtabstop=4
+set shiftwidth=4
 
-" Kernel coding style
-" filetype plugin indent on
-" set tabstop=8
-" set softtabstop=8
-" set shiftwidth=8
-" set noexpandtab
-
-set ruler
-set undolevels=1000
-set backspace=indent,eol,start
 set laststatus=2
-set ttimeout
-set ttimeoutlen=0
-set colorcolumn=80
 
-syntax enable
-set background=dark
-colorscheme solarized
+colorscheme wombat256mod
 
-let g:lightline = { 'colorscheme': 'solarized' }
-let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall -Wextra -Werror '
+nnoremap <F2> :NERDTreeToggle<CR>
