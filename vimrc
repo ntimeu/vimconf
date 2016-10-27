@@ -22,12 +22,15 @@ set fileencoding=utf-8
 set encoding=utf-8
 set ff=unix
 set noerrorbells
-set t_vb=
+set vb t_vb=
 set t_ut=
+set t_Co=256
 set cursorline
 set number
-set colorcolumn=81
 set clipboard=unnamedplus
+set backspace=2
+set wildmenu
+set wildmode=longest,full
 
 set scrolloff=5
 set history=10000
@@ -36,14 +39,15 @@ set showmatch
 set smartcase
 set formatoptions+=t
 
-set linebreak
 set textwidth=80
+set colorcolumn=+1
 set tabstop=4
 set expandtab
 set softtabstop=4
 set shiftwidth=4
 set smartindent
 
+set history=10000
 set laststatus=2
 
 colorscheme wombat256mod
