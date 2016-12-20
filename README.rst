@@ -10,6 +10,7 @@ Installing
 ==========
 
 .. code-block:: bash
+
     cd
     git clone https://github.com/ntimeu/vimconf.git .vim
     cd .vim
