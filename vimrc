@@ -39,8 +39,9 @@ set showmatch
 set smartcase
 set formatoptions+=t
 
-set textwidth=80
-set colorcolumn=+1
+set textwidth=79
+set colorcolumn=80
+hi ColorColumn ctermbg=Red cterm=none
 set tabstop=4
 set expandtab
 set softtabstop=4
