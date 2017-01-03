@@ -52,6 +52,5 @@ set history=10000
 set laststatus=2
 
 colorscheme wombat256mod
-hi ColorColumn ctermbg=236 cterm=none guibg=#32322f
 
 nnoremap <F2> :NERDTreeToggle<CR>
