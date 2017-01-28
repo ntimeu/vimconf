@@ -3,7 +3,7 @@ My Vim configuration
 ====================
 
 Dependencies :
-    * Vundle
+    * vim-plug
     * That's all folks !
 
 Installing
@@ -14,10 +14,10 @@ Installing
     cd
     git clone https://github.com/ntimeu/vimconf.git .vim
     cd .vim
-    mkdir bundle
-    cd bundle
-    git clone https://github.com/VundleVim/Vundle.vim.git
-    vim +PluginInstall +qall
+    mkdir autoload
+    cd autoload
+    wget -c https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    vim
 
-Once vim has downloaded everything, you can quit it, and you're ready
-to roll. Enjoy !
+while in Vim, type :PlugInstall to install all your plugins. Once done, restart
+Vim and you're ready to roll.
