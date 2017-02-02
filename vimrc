@@ -7,7 +7,7 @@ Plug 'VundleVim/Vundle.vim'
 
 Plug 'vim-scripts/wombat256.vim'
 Plug 'bling/vim-airline'
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'rust-lang/rust.vim'
 Plug 'vim-scripts/a.vim'
 
