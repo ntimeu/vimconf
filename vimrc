@@ -10,6 +10,7 @@ Plug 'bling/vim-airline'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'rust-lang/rust.vim'
 Plug 'vim-scripts/a.vim'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
