@@ -11,6 +11,8 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'rust-lang/rust.vim'
 Plug 'vim-scripts/a.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'vim-erlang/vim-erlang-runtime'
+Plug 'vim-erlang/vim-erlang-omnicomplete'
 
 call plug#end()
 
