@@ -78,6 +78,9 @@ hi ColorColumn ctermbg=Red cterm=none
 " Always show status line
 set laststatus=2
 
+" Encryption support
+set cryptmethod=blowfish2
+
 " Plugin conf
 
 colorscheme wombat256mod
