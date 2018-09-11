@@ -9,13 +9,9 @@ call plug#begin()
 Plug 'vim-scripts/wombat256.vim'
 Plug 'bling/vim-airline'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-Plug 'rust-lang/rust.vim'
 " For C++ : switch to header/source
 Plug 'vim-scripts/a.vim'
-" Git support
-Plug 'tpope/vim-fugitive'
 Plug 'vim-erlang/vim-erlang-runtime'
-Plug 'ElmCast/elm-vim'
 call plug#end()
 
 " Configure encoding
@@ -83,7 +79,7 @@ set laststatus=2
 set cryptmethod=blowfish2
 
 " Kick out trailing whitespaces before EOL
-autocmd BufWritePre :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Plugin conf
 
