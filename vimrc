@@ -11,7 +11,6 @@ Plug 'bling/vim-airline'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 " For C++ : switch to header/source
 Plug 'vim-scripts/a.vim'
-Plug 'vim-erlang/vim-erlang-runtime'
 call plug#end()
 
 " Configure encoding
@@ -28,7 +27,7 @@ set shiftwidth=4
 " Smart indenting (tab after '{', etc)
 set smartindent
 
-" Syntax highlighting support
+" Make Vim draw faster
 set ttyfast
 
 " Maximum number of colors vim can handle
@@ -64,6 +63,7 @@ set history=10000
 set incsearch
 set showmatch
 " Search lowercase will match uppercase
+set ignorecase
 set smartcase
 
 set formatoptions+=t
