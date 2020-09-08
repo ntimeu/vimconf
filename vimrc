@@ -6,7 +6,7 @@ filetype off
 
 " Enable vim-plug
 call plug#begin()
-Plug 'vim-scripts/wombat256.vim'
+Plug 'arcticicestudio/nord-vim'
 Plug 'bling/vim-airline'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 " For C++ : switch to header/source
@@ -83,7 +83,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " Plugin conf
 
-colorscheme wombat256mod
+colorscheme nord
 
 " Show NERDTree on F2
 nnoremap <F2> :NERDTreeToggle<CR>
