@@ -75,9 +75,6 @@ hi ColorColumn ctermbg=Red cterm=none
 " Always show status line
 set laststatus=2
 
-" Encryption support
-set cryptmethod=blowfish2
-
 " Kick out trailing whitespaces before EOL
 autocmd BufWritePre * :%s/\s\+$//e
 
