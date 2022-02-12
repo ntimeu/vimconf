@@ -8,9 +8,6 @@ filetype off
 call plug#begin()
 Plug 'tomasr/molokai'
 Plug 'bling/vim-airline'
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-" For C++ : switch to header/source
-Plug 'vim-scripts/a.vim'
 call plug#end()
 
 " Configure encoding
