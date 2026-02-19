@@ -6,8 +6,10 @@ filetype off
 
 " Enable vim-plug
 call plug#begin()
-Plug 'tomasr/molokai'
 Plug 'bling/vim-airline'
+Plug 'fatih/vim-go'
+Plug 'rust-lang/rust.vim'
+Plug 'tomasr/molokai'
 call plug#end()
 
 " Configure encoding
